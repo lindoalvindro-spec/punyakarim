@@ -113,9 +113,9 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
                 boxShadow: '0 12px 32px rgba(59,130,246,0.25)',
                 position: 'relative', zIndex: 1
               }}>
-                <img src="/james 1.jfif" alt="James" style={{
+                <img src="/felicia 1.jpeg" alt="Felicia" style={{
                   width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center center'
-                }} onError={(e) => { e.target.src = '/james 1.jfif'; }} />
+                }} onError={(e) => { e.target.src = '/felicia 1.jpeg'; }} />
               </div>
             </div>
 
@@ -124,7 +124,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
               fontFamily: 'var(--font-cute)', fontSize: '0.8rem', color: '#4a6b34',
               letterSpacing: 2.5, textTransform: 'uppercase', marginBottom: 4, fontWeight: 700
             }}>
-              Kartu Ucapan Ulang Tahun 🍵✨
+              Kartu Ucapan Ulang Tahun 🌸✨
             </h3>
             
             <div className="reveal-el" style={{ textAlign: 'center', marginBottom: 18 }}>
@@ -132,7 +132,7 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
                 fontFamily: 'var(--font-display)', fontSize: '2.5rem', color: '#1e40af',
                 lineHeight: 1, margin: 0
               }}>
-                James 🍵✨
+                Felicia 🌸✨
               </h1>
             </div>
 
@@ -146,16 +146,16 @@ export default function BirthdayWishCard({ onNext, onRestart }) {
               fontFamily: 'var(--font-body)', fontSize: '0.86rem', color: 'var(--berry-light)',
               lineHeight: 1.7, marginBottom: 24, fontStyle: 'italic', padding: '0 6px'
             }}>
-              "Selamat ulang tahun yang ke-21, James. Semoga setiap langkahmu senantiasa dipenuhi keberkahan, kesehatan, kedamaian, dan kelancaran di setiap perjalanan."
+              "Selamat ulang tahun yang ke-15 yaa sayang. Semoga di usiamu yang sekarang kamu selalu diberikan kesehatan, kebahagiaan, dimudahkan dalam segala urusan, dan tercapai semua cita-citamu. Jangan lupa bahagia yaa sayang, you deserve all the happiness in the world! ❤️"
             </p>
 
             {/* Sign Off */}
             <div className="reveal-el" style={{ marginBottom: 10 }}>
               <p style={{ fontSize: '0.72rem', color: '#4a6b34', marginBottom: 4, textTransform: 'uppercase', letterSpacing: 1.2, fontWeight: 700 }}>
-                With Warmest Regards & Best Wishes — Za 🍵✨
+                With Love & Best Wishes 💖✨
               </p>
               <p style={{ fontFamily: 'var(--font-display)', fontSize: '1.7rem', color: '#1e40af' }}>
-                Happy 21st Birthday, James 🍵✨
+                Happy 15th Birthday, Felicia 🌸✨
               </p>
             </div>
 

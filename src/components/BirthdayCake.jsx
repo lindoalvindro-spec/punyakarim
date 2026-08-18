@@ -179,7 +179,7 @@ export default function BirthdayCake({ onShowGallery }) {
             <h2 style={{
               fontFamily: 'var(--font-display)', fontSize: '2rem', color: 'var(--berry)',
               lineHeight: 1.15, marginBottom: 4
-            }}>Make a Wish, James 🍵✨</h2>
+            }}>Make a Wish, Felicia 🌸✨</h2>
             <Sparkles size={18} color="#3b82f6" />
           </div>
           <p style={{
@@ -288,7 +288,7 @@ export default function BirthdayCake({ onShowGallery }) {
                 fontFamily: 'var(--font-display)', fontSize: '1.35rem', color: '#1e40af',
                 fontWeight: 700, letterSpacing: '0.5px', margin: 0, lineHeight: 1.1
               }}>
-                Happy Birthday James! 🍵💙
+                Happy Birthday Felicia! 🌸💙
               </span>
             </div>
           </div>

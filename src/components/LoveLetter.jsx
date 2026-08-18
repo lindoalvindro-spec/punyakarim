@@ -43,8 +43,8 @@ function LetterTab() {
           width: 36, height: 12, background: 'rgba(122,154,96,0.4)',
           borderRadius: 2, backdropFilter: 'blur(4px)', zIndex: 10
         }} />
-        <img src="/james 5.jfif" alt="James" style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          onError={(e) => { e.target.src = '/james 5.jfif'; }} />
+        <img src="/felicia 5.jpeg" alt="Felicia" style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          onError={(e) => { e.target.src = '/felicia 5.jpeg'; }} />
       </div>
 
       {/* Opening Badge Header */}
@@ -57,7 +57,7 @@ function LetterTab() {
         }}>
           <Sparkles size={13} color="#2563eb" />
           <span style={{ fontFamily: 'var(--font-cute)', fontSize: '0.8rem', fontWeight: 700, color: '#1e40af', letterSpacing: '0.5px' }}>
-            HAPPY 21ST BIRTHDAY, JAMES 🍵✨
+            HAPPY 15TH BIRTHDAY, FELICIA 🌸✨
           </span>
         </div>
 
@@ -66,18 +66,33 @@ function LetterTab() {
           fontFamily: 'var(--font-display)', fontSize: '1.65rem', color: '#1e40af',
           lineHeight: 1.2, margin: '4px 0 10px 0'
         }}>
-          Dearest James,
+          Dearest Felicia,
         </h3>
       </div>
 
+      {/* Header Greeting */}
+      <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 14, fontWeight: 700, color: '#1e40af', fontSize: '0.92rem' }}>
+        happy birthday yaa sayanggg 🥳❤️
+      </p>
+
       {/* Paragraph 1 */}
       <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 14, fontWeight: 500, letterSpacing: '0.2px' }}>
-        Selamat ulang tahun yang ke-21, James. Semoga setiap langkahmu senantiasa dipenuhi keberkahan, kesehatan, dan kelancaran dalam meraih setiap impian baikmu.
+        hari ini hari yang spesial banget buat kamu, aku mau jadi salah satu orang yang ngucapin selamat ulang tahun ke kamu. semoga diumur kamu yang sekarang, semua hal baik yang kamu harapin bisa pelan-pelan tercapai. semoga kamu selalu dikasi kesehatan, kebahagiaan, dimudahin dalam segala urusan, dan selalu dikelilingi orang-orang yang sayang sama kamu.
       </p>
 
       {/* Paragraph 2 */}
-      <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 16, fontWeight: 500 }}>
-        Terima kasih telah menjadi pribadi yang hangat dan luar biasa. Bersyukur bisa mengenalmu dan menjadi bagian dari perjalanan yang berharga ini.
+      <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 14, fontWeight: 500 }}>
+        kirain dulu kita bakal jadi temen biasa, kenal secara singkat trus asing lagi. tapi ternyata lebih dari itu, jujur ga nyangka bakal dikabulin doa aku pengen punya cewe orang jawa, kenapa pengen orang jawa? karna kalo lebaran bisa mudik jauh. tapi jangan mikir kejauhan dulu deng, yang terpenting fokus dulu sana cita-cita kita, nanti juga pasti ada jalannya.
+      </p>
+
+      {/* Paragraph 3 */}
+      <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 14, fontWeight: 500 }}>
+        dulu juga hidup aku udah ditahap hampa banget tauu, gaada yang nemenin aku, gaada tempat buat cerita, buat yappink. jadi mikir kayanya enak ya ditemenin satu cewe, dan ternyata sekarang cewenya itu kamu. sebenernya dulu ada beberapa temen mabar aku, tapi kalo takdirnya sama kamu ya mau gimanapun tetep bakal sama kamu.
+      </p>
+
+      {/* Paragraph 4 */}
+      <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 14, fontWeight: 500 }}>
+        aku juga mau bilang makasi banyak karena sampe sekarang kamu masi ada dihidup aku. makasi udah mau nerima aku yang banyak kurangnya ini. makasi juga udah nemenin aku, udah sabar ngadepin sifat aku, udah mau dengerin cerita aku, dan udah jadi seseorang yang bisa bikin hari-hari aku jadi lebih berwarna.
       </p>
 
       {/* 🌟 Romantic Quote Highlight Box */}
@@ -101,14 +116,29 @@ function LetterTab() {
             lineHeight: 1.75,
             fontWeight: 600,
           }}>
-            "Setiap momen dan kenangan yang tercipta bersamamu selalu menjadi bagian berharga dalam perjalanan ini. Terima kasih telah hadir dan memberi banyak arti."
+            "mungkin aku belum selalu bisa jadi orang yang paling baik buat kamu, kadang masi suka bikin kesel, kadang bikin kamu kepikiran, atau mungkin ada sikap aku yang ga sadar bikin kamu sedih. maafin aku yaa kalo selama ini masi banyak kurangnya."
           </p>
         </div>
       </div>
 
-      {/* Paragraph 3 */}
+      {/* Paragraph 5 */}
       <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 14, fontWeight: 500 }}>
-        Selamat bertambah usia. Semoga di usiamu yang baru ini, kamu senantiasa dikelilingi oleh kebahagiaan, kedamaian, dan orang-orang yang tulus menyayangimu.
+        aku berharap diumur kamu yang sekarang, kamu bisa jadi versi diri kamu yang lebih bahagia. jangan terlalu sering mikirin hal-hal yang bikin kamu sedih, jangan terlalu keras sama diri sendiri juga. kalo ada masalah, jangan ngerasa harus ngadepin semuanya sendirian. aku mungkin gak selalu punya solusi buat semuanya, tapi kalau kamu butuh tempat cerita, aku bakal berusaha buat dengerin kamu.
+      </p>
+
+      {/* Paragraph 6 */}
+      <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 14, fontWeight: 500 }}>
+        semoga apa yang kamu cita-citain bisa tercapai semuanya. semoga sekolahnya lancar, urusannya dimudahin, sama apapun yang lagi kamu perjuangin sekarang nantinya bisa bikin kamu bangga sama diri kamu sendiri. aku pengen liat kamu berhasil dan bahagia, bukan cuma sekarang tapi sampai nanti nanti.
+      </p>
+
+      {/* Paragraph 7 */}
+      <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 14, fontWeight: 500 }}>
+        satu lagi, semoga hubungan kita juga bisa terus jadi lebih baik. aku gak janji hubungan kita bakal selalu sempurna, karena pasti bakal ada salah paham, berantem, atau beda pendapat. tapi aku harap setiap ada masalah kita bisa sama-sama belajar, bukan malah diem-dieman. aku masi pengen bikin banyak kenangan sama kamu, ketawa bareng, cerita hal random, saling support, dan ngelewatin banyak hal bareng-bareng.
+      </p>
+
+      {/* Paragraph 8 */}
+      <p ref={(el) => itemsRef.current.push(el)} style={{ marginBottom: 14, fontWeight: 500 }}>
+        pokoknya sekali lagi selamat ulang tahun yaa sayang. semoga hari ini kamu bisa seneng banget, jangan lupa senyum juga. makasi udah lahir, makasi udah hadir dihidup aku. aku bersyukur bisa kenal dan punya kamu sampai sekarang. semoga tahun ini jadi salah satu tahun terbaik buat kamu. semoga semua doa baik balik lagi ke kamu berkali-kali lipat. jangan lupa bahagia yaa, karena kamu pantas buat bahagiaa. ❤️
       </p>
 
       {/* Handwritten Sign-Off Card */}
@@ -120,10 +150,16 @@ function LetterTab() {
         clear: 'both',
       }}>
         <p style={{
+          fontFamily: 'var(--font-cute)', fontSize: '0.95rem', color: '#dc2626',
+          fontWeight: 700, marginBottom: 4
+        }}>
+          happy birthday, sayanggg. i love youu 🫶❤️
+        </p>
+        <p style={{
           fontFamily: 'var(--font-display)', fontSize: '1.35rem', color: '#1e40af',
           lineHeight: 1.35, margin: 0, fontWeight: 700
         }}>
-          Selamat Ulang Tahun yang ke-21, James 🍵✨
+          Selamat Ulang Tahun yang ke-15, Felicia 🌸✨
         </p>
       </div>
     </div>
@@ -160,7 +196,7 @@ function ImpianTab() {
       icon: '🌟',
       badge: 'DREAM 02',
       title: 'Endless Support From Afar',
-      text: 'Meskipun jauh, aku bakal selalu ada buat dengerin cerita kamu, dukung setiap langkah, impian, dan karir James. You will never walk alone.',
+      text: 'Meskipun jauh, aku bakal selalu ada buat dengerin cerita kamu, dukung setiap langkah, sekolah, dan impian Felicia. You will never walk alone.',
       gradient: 'linear-gradient(135deg, rgba(59,130,246,0.2), rgba(220,252,231,0.4))',
     },
     {
@@ -282,11 +318,11 @@ function WishesTab() {
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
         {[
-          <span>Semoga di usiamu yang ke-21 ini, James selalu diberikan kesehatan, kelancaran rezeki, dan perlindungan di mana pun kamu berada. 🤲🏻💖</span>,
+          <span>Semoga di usiamu yang ke-15 ini, Felicia selalu diberikan kesehatan, kelancaran sekolah & urusan, dan perlindungan di mana pun kamu berada. 🤲🏻💖</span>,
           <span>May your days be filled with endless joy and peace, and may the distance never fade that sweet, beautiful smile of yours! ✨</span>,
-          <span>Semoga rasa rindu di antara kita selalu jadi penguat ikatan cinta dan kedewasaan hubungan kita setiap harinya. 🌸</span>,
-          <span>May all your dreams, ambitions, and wishes at 21 come true beautifully, one by one. 🥂</span>,
-          <span>Terima kasih udah bertahan dan selalu memperjuangkan hubungan LDR ini bareng aku. Happy 21st Birthday, my love! 🎂🎁💝</span>
+          <span>Semoga kita selalu saling support, belajar bareng dalam setiap masalah, dan menjaga ikatan hubungan kita setiap harinya. 🌸</span>,
+          <span>Semoga semua cita-cita dan harapan Felicia di umur 15 tahun ini bisa tercapai satu per satu. 🥂</span>,
+          <span>Makasi udah lahir dan hadir di hidup aku. Happy 15th Birthday, sayanggg! 🎂🎁💝</span>
         ].map((item, i) => (
           <div key={i} ref={(el) => itemsRef.current.push(el)} style={{
             display: 'flex', gap: 12, alignItems: 'flex-start',
@@ -367,7 +403,7 @@ export default function LoveLetter({ onNext }) {
             border: '2px dashed #7a9a60', borderRadius: 6,
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: '1.2rem', opacity: 0.85,
-          }}>🍵</div>
+          }}>🌸</div>
 
           {/* Wax Seal */}
           <div ref={sealRef} className="anim-breathe" style={{
@@ -385,7 +421,7 @@ export default function LoveLetter({ onNext }) {
           }}>Surat Ulang Tahun</h2>
           <p style={{
             fontFamily: 'var(--font-cute)', fontSize: '0.84rem', color: '#2563eb', fontWeight: 600,
-          }}>Untuk James 🍵✨</p>
+          }}>Untuk Felicia 🌸✨</p>
 
           <div style={{
             marginTop: 24, fontSize: '0.75rem', fontWeight: 700,
@@ -411,10 +447,10 @@ export default function LoveLetter({ onNext }) {
             <h1 style={{
               fontFamily: 'var(--font-display)', fontSize: '1.85rem', color: '#1e40af',
               lineHeight: 1.15, marginBottom: 4,
-            }}>Happy Birthday, James! 🎂✨</h1>
+            }}>Happy Birthday, Felicia! 🎂✨</h1>
             <p style={{
               fontFamily: 'var(--font-cute)', fontSize: '0.78rem', color: '#4a6b34', fontWeight: 600,
-            }}>Pesan hangat dan doa terbaik di usiamu yang ke-21 🌿</p>
+            }}>Pesan hangat dan doa terbaik di usiamu yang ke-15 🌿</p>
           </div>
 
           {/* Navigation */}

@@ -132,16 +132,16 @@ export default function SplashScreen({ onStart }) {
       display: 'flex', flexDirection: 'column', alignItems: 'center',
       justifyContent: 'center', overflow: 'hidden', padding: '16px 0',
     }}>
-      {/* Background Hero Photo (james 1.jfif) */}
+      {/* Background Hero Photo (felicia 1.jpeg) */}
       <img
         ref={photoRef}
-        src="/james 1.jfif"
-        alt="Happy Birthday Sayangku"
+        src="/felicia 1.jpeg"
+        alt="Happy Birthday Felicia"
         style={{
           position: 'absolute', inset: 0, width: '100%', height: '100%',
           objectFit: 'cover', opacity: 0,
         }}
-        onError={(e) => { e.target.src = '/james 1.jfif'; }}
+        onError={(e) => { e.target.src = '/felicia 1.jpeg'; }}
       />
 
       {/* Luxury Dark Gradient Overlay for Maximum Readability */}
@@ -180,12 +180,12 @@ export default function SplashScreen({ onStart }) {
         padding: '0 20px', maxWidth: 350, width: '100%',
       }}>
 
-        {/* Floating Sparkling 100 Badge */}
+        {/* Floating Sparkling 15 Badge */}
         <div ref={num20Ref} style={{ opacity: 0, marginBottom: 8, display: 'inline-block' }}>
           <div className="sparkling-20-badge">
             <span className="sparkle-icon-left">✨</span>
-            <span className="sparkling-20-text">21</span>
-            <span className="sparkle-icon-right">🍵</span>
+            <span className="sparkling-20-text">15</span>
+            <span className="sparkle-icon-right">🌸</span>
           </div>
         </div>
 
@@ -200,7 +200,7 @@ export default function SplashScreen({ onStart }) {
         }}>
           <Crown size={14} color="var(--gold-accent)" />
           <span className="sparkling-birthday-text">
-            Happy 21st Birthday! 🍵✨
+            Happy 15th Birthday! 🌸✨
           </span>
         </div>
 
@@ -213,13 +213,13 @@ export default function SplashScreen({ onStart }) {
           Special Exhibition Dedicated To
         </p>
 
-        {/* Main Title: James */}
+        {/* Main Title: Felicia */}
         <h1 ref={line2Ref} style={{
           fontFamily: 'var(--font-display)', fontSize: '2.5rem', color: '#fff',
           lineHeight: 1.15, marginBottom: 10, opacity: 0,
           textShadow: '0 4px 20px rgba(59, 130, 246, 0.7), 0 0 35px rgba(122, 154, 96, 0.5)',
         }}>
-          James
+          Felicia
         </h1>
 
         {/* Birthday Wish Box & Tagline */}
@@ -230,7 +230,7 @@ export default function SplashScreen({ onStart }) {
               color: '#dcfce7', margin: 0, lineHeight: 1.3,
               textShadow: '0 2px 10px rgba(0,0,0,0.5)',
             }}>
-              "Selamat Ulang Tahun yang ke-21, James" 🍵✨
+              "Selamat Ulang Tahun yang ke-15, Felicia" 🌸✨
             </p>
           </div>
 
