@@ -9,13 +9,19 @@ export default function MemoryGallery({ onNext }) {
   const containerRef = useRef(null);
 
   const exhibits = [
-    { src: '/felicia 1.jpeg', tag: 'EXHIBIT #01', title: 'Beautiful Radiance 🌟' },
-    { src: '/felicia 2.jpeg', tag: 'EXHIBIT #02', title: 'Sweet Smile ✨' },
-    { src: '/felicia 3.jpeg', tag: 'EXHIBIT #03', title: 'Cute & Joyful 🌸' },
-    { src: '/felicia 4.jpeg', tag: 'EXHIBIT #04', title: 'Warm Atmosphere ☀️' },
-    { src: '/felicia 5.jpeg', tag: 'EXHIBIT #05', title: 'Precious Moments 💎' },
-    { src: '/felicia 6.jpeg', tag: 'EXHIBIT #06', title: 'Sweet Memories 💖' },
-    { src: '/felicia 7.jpeg', tag: 'EXHIBIT #07', title: 'Favorite View 🌺' },
+    { src: '/rim 1.jpeg', tag: 'EXHIBIT #01', title: 'Bright Moments 🌟' },
+    { src: '/rim 2.jpeg', tag: 'EXHIBIT #02', title: 'Gentle Smile ✨' },
+    { src: '/rim 3.jpeg', tag: 'EXHIBIT #03', title: 'Casual & Warm 🍃' },
+    { src: '/rim 4.jpeg', tag: 'EXHIBIT #04', title: 'Cool Vibes ☀️' },
+    { src: '/rim 5.jpeg', tag: 'EXHIBIT #05', title: 'Precious Days 💎' },
+    { src: '/rim 6.jpeg', tag: 'EXHIBIT #06', title: 'Favorite Pose 📸' },
+    { src: '/rim 7.jpeg', tag: 'EXHIBIT #07', title: 'Sweet Expression 🤍' },
+    { src: '/rim 8.jpeg', tag: 'EXHIBIT #08', title: 'Golden Hour 🌅' },
+    { src: '/rim 9.jpeg', tag: 'EXHIBIT #09', title: 'Cherished Memories 🌿' },
+    { src: '/rim 10.jpeg', tag: 'EXHIBIT #10', title: 'Calm & Peaceful 🌙' },
+    { src: '/rim 11.jpeg', tag: 'EXHIBIT #11', title: 'Joyful Soul 🌸' },
+    { src: '/rim 12.jpeg', tag: 'EXHIBIT #12', title: 'Endless Charm ✨' },
+    { src: '/rim 13.jpeg', tag: 'EXHIBIT #13', title: 'Forever Special 👑' },
   ];
 
   useEffect(() => {
@@ -116,7 +122,7 @@ export default function MemoryGallery({ onNext }) {
           fontFamily: 'var(--font-display)', fontSize: '2.2rem', color: '#1e40af',
           lineHeight: 1.15, marginBottom: 6, letterSpacing: '-0.5px'
         }}>
-          Galeri Foto Felicia 🌸✨
+          Galeri Foto Karim 🌸✨
         </h1>
       </div>
 
@@ -162,7 +168,7 @@ export default function MemoryGallery({ onNext }) {
               width: '100%', height: '100%', objectFit: 'cover',
               transformOrigin: 'center center'
             }}
-            onError={(e) => { e.target.src = '/felicia 1.jpeg'; }}
+            onError={(e) => { e.target.src = '/rim 1.jpeg'; }}
           />
 
           {/* Lightbox Inspect Trigger */}

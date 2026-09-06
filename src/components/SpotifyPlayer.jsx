@@ -141,11 +141,17 @@ export default function SpotifyPlayer({ autoPlay = false }) {
       {/* Audio Element */}
       <audio
         ref={audioRef}
-        src="/My Love_spotdown.org.mp3"
+        src="/XXL - Lany.mp3"
         preload="metadata"
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
         onEnded={() => setPlaying(false)}
+        onError={(e) => {
+          if (!e.currentTarget.src.includes('bgm.mp3')) {
+            e.currentTarget.src = '/bgm.mp3';
+            if (playing) e.currentTarget.play().catch(() => {});
+          }
+        }}
       />
 
       {/* ── MODE 1: Sleek Floating Mini Pill (default) ── */}
@@ -179,10 +185,10 @@ export default function SpotifyPlayer({ autoPlay = false }) {
             border: '1.5px solid #1DB954',
           }}>
             <img
-              src="/felicia 3.jpeg"
-              alt="My Love"
+              src="/rim 3.jpeg"
+              alt="XXL"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              onError={(e) => { e.target.src = '/felicia 3.jpeg'; }}
+              onError={(e) => { e.target.src = '/rim 3.jpeg'; }}
             />
             {playing && (
               <div className="anim-spin" style={{
@@ -200,7 +206,7 @@ export default function SpotifyPlayer({ autoPlay = false }) {
               fontSize: '0.78rem', fontWeight: 700, color: '#ffffff',
               lineHeight: 1.1, whiteSpace: 'nowrap'
             }}>
-              My Love
+              XXL
             </div>
             <div style={{
               fontSize: '0.66rem', color: '#1DB954', fontWeight: 600,
@@ -273,10 +279,10 @@ export default function SpotifyPlayer({ autoPlay = false }) {
             background: '#282828',
           }}>
             <img
-              src="/felicia 3.jpeg"
-              alt="My Love"
+              src="/rim 3.jpeg"
+              alt="XXL"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-              onError={(e) => { e.target.src = '/felicia 3.jpeg'; }}
+              onError={(e) => { e.target.src = '/rim 3.jpeg'; }}
             />
             {playing && (
               <div style={{
@@ -300,13 +306,13 @@ export default function SpotifyPlayer({ autoPlay = false }) {
                   whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
                   letterSpacing: '-0.2px'
                 }}>
-                  My Love
+                  XXL
                 </div>
                 <div style={{
                   fontSize: '0.74rem', color: '#b3b3b3', fontWeight: 500,
                   whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', marginTop: 1
                 }}>
-                  Westlife
+                  LANY
                 </div>
               </div>
 

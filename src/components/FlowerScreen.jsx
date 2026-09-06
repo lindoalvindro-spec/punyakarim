@@ -198,7 +198,7 @@ export default function FlowerScreen({ onRestart }) {
                 letterSpacing: '-0.5px',
                 textShadow: '0 2px 10px rgba(59, 130, 246, 0.2)',
               }}>
-                Felicia 🌸✨
+                Karim 🌸✨
               </h2>
             </div>
 
@@ -215,7 +215,7 @@ export default function FlowerScreen({ onRestart }) {
               textAlign: 'left',
             }}>
               <p style={{ marginBottom: 12, fontWeight: 500 }}>
-                Selamat ulang tahun yang ke-15 yaa sayang. Semoga di usia yang baru ini, kamu senantiasa dikelilingi kebahagiaan, kesehatan, dan senyum manis yang selalu mekar. Makasi udah lahir dan hadir di hidup aku. Happy birthday sayanggg, i love you! 🫶❤️
+                Selamat ulang tahun yang ke-19 yaa! Semoga di usia yang baru ini, setiap langkah kamu dimudahkan, setiap usaha kamu dihargai, dan kamu selalu dikelilingi orang-orang yang tulus menyayangimu. Thank you for being a good friend, and I hope life treats you kindly, bayii. Happy 19th birthday! 🤍
               </p>
               
               <div style={{
@@ -227,7 +227,7 @@ export default function FlowerScreen({ onRestart }) {
                 color: '#1e40af',
                 lineHeight: 1.35,
               }}>
-                Selamat Ulang Tahun Ke-15, Felicia 🌸✨
+                Selamat Ulang Tahun Ke-19, Karim 🌸✨
               </div>
             </div>
 

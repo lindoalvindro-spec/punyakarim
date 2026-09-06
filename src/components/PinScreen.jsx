@@ -5,7 +5,7 @@ import gsap from 'gsap';
 export default function PinScreen({ onUnlock }) {
   const [pin, setPin] = useState('');
   const [error, setError] = useState(false);
-  const correctPin = '180811';
+  const correctPin = '1609';
   const cardRef = useRef(null);
   const dotsRef = useRef([]);
   const lockRef = useRef(null);
@@ -24,7 +24,7 @@ export default function PinScreen({ onUnlock }) {
   }, []);
 
   const press = (num) => {
-    if (pin.length >= 6) return;
+    if (pin.length >= 4) return;
     const next = pin + num;
     setPin(next);
     setError(false);
@@ -33,7 +33,7 @@ export default function PinScreen({ onUnlock }) {
     const dot = dotsRef.current[next.length - 1];
     if (dot) gsap.fromTo(dot, { scale: 0.5 }, { scale: 1, duration: 0.25, ease: 'back.out(3)' });
 
-    if (next.length === 6) {
+    if (next.length === 4) {
       setTimeout(() => verify(next), 200);
     }
   };
@@ -93,13 +93,13 @@ export default function PinScreen({ onUnlock }) {
           Masukkan kode sandi akses 🍵
         </p>
 
-        {/* PIN Dots */}
-        <div style={{ display: 'flex', justifyContent: 'center', gap: 10, marginBottom: 22 }}>
-          {[0, 1, 2, 3, 4, 5].map((i) => {
+        {/* PIN Dots (4 Digits) */}
+        <div style={{ display: 'flex', justifyContent: 'center', gap: 14, marginBottom: 22 }}>
+          {[0, 1, 2, 3].map((i) => {
             const filled = pin.length > i;
             return (
               <div key={i} ref={(el) => (dotsRef.current[i] = el)} style={{
-                width: 38, height: 38, borderRadius: 12,
+                width: 44, height: 44, borderRadius: 14,
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 background: filled
                   ? 'linear-gradient(135deg, #7a9a60, #3b82f6)'
@@ -108,7 +108,7 @@ export default function PinScreen({ onUnlock }) {
                 boxShadow: filled ? '0 4px 16px rgba(59, 130, 246, 0.3)' : 'none',
                 transition: 'all 0.2s ease',
               }}>
-                {filled && <span style={{ fontSize: '0.9rem' }}>🍃</span>}
+                {filled && <span style={{ fontSize: '1rem' }}>🍃</span>}
               </div>
             );
           })}
